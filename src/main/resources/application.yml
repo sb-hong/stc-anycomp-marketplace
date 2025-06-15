@@ -1,0 +1,9 @@
+spring:
+    application:
+        name: anycompmarketplace
+    profiles:
+        active: dev
+server:
+    port: 8092
+    servlet:
+        context-path: /anycompmarketplace/v1

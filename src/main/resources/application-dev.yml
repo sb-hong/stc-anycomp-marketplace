@@ -1,0 +1,14 @@
+spring:
+    jpa:
+      hibernate:
+        ddl-auto: update
+      database-platform: org.hibernate.dialect.PostgreSQLDialect
+    datasource:
+        url: jdbc:postgresql://pg-1021ac89-zach-3fed.d.aivencloud.com:23293/defaultdb?ssl=require
+        username: avnadmin
+        password: AVNS_ZQSSMvrUQW2KOxa-FZW
+        driver-class-name: org.postgresql.Driver
+logging:
+  level:
+    com:
+      stctest: trace
